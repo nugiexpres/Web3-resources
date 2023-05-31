@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Free Web3 resources",
-  tagline: "A list of resources to learn Web3",
-  url: "https://your-docusaurus-test-site.com",
+  title: "Coinpediaxyz",
+  tagline: "Learn basic how to build web3 dapp",
+  url: "https://coinpedia.xyz",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "FrancescoXX", // Usually your GitHub org/user name.
-  projectName: "free-web3-resources", // Usually your repo name.
+  organizationName: "nugiexpres", // Usually your GitHub org/user name.
+  projectName: "Build web3 dapp to buy cheapest crypto coin", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/FrancescoXX/free-Web3-resources/edit/main",
+            "https://github.com/nugiexpres",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/FrancescoXX/free-Web3-resources/edit/main",
+            "https://github.com/nugiexpres",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -59,7 +59,7 @@ const config = {
       // algolia: {
       //   appId: "TK013U555M",
       //   apiKey: "868e35b771ee2f9116e289cf1ba63d96",
-      //   indexName: "-free-web3-resources",
+      //   indexName: "-coinpedia",
       // },
       colorMode: {
         defaultMode: "dark",
@@ -69,7 +69,7 @@ const config = {
       navbar: {
         title: "",
         logo: {
-          alt: "Free Web3 resources",
+          alt: "Buy crypto with low budget",
           src: "img/fw3-blue-logo-squared.png",
         },
         items: [
@@ -80,7 +80,7 @@ const config = {
             label: "Resources",
           },
           {
-            href: "https://github.com/FrancescoXX/free-Web3-resources",
+            href: "https://github.com/nugiexpres",
             label: "GitHub",
             position: "right",
           },
@@ -104,11 +104,11 @@ const config = {
             items: [
               {
                 label: "Discord",
-                href: "https://discord.com/invite/JZ2btyTfzQ",
+                href: "https://discord.com/",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/4ccommunityhq",
+                href: "https://twitter.com/nugrosir",
               },
             ],
           },
@@ -117,7 +117,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/FrancescoXX/free-Web3-resources",
+                href: "https://github.com/nugiexpres",
               },
             ],
           },
@@ -128,7 +128,7 @@ const config = {
       announcementBar: {
         id: "Join us",
         content:
-          'Are you a Content Creator? <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/4ccommunity">Join the Community</a>',
+          'Lets build web3 dapp for buy crypto with low budget <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nugiexpres">Join the Community</a>',
         backgroundColor: "#fafbfc",
         textColor: "#091E42",
         isCloseable: true,
